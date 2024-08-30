@@ -1,0 +1,58 @@
+@media (max-width:1024px ){
+
+    body .topoheader{
+        justify-content: center;
+        align-items: center;
+    }
+    body .topoheader .info_contacto{
+        display: none;
+    }
+    body .topoheader .redes_sociais{
+        margin: 0;
+    }
+
+    header nav ul{
+        display: none;
+    }
+
+    footer .nav ul{
+        margin-left: 400px;
+        margin-top: 30px;
+        
+    }
+
+    .contacto{
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+
+}
+
+@media (max-width: 767px ){
+    footer .nav ul{
+        margin-left: 100px;
+        gap: 7px;
+        margin-top: 30px;
+        flex-direction: column;
+        
+    }
+    .sobre_nos{
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 0px;
+    }
+    .sobre_nos .text{
+        width: 70%;
+
+    }
+    .sobre_nos .text .btn{
+        width: 80%;
+    }
+    .contacto{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}

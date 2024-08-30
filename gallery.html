@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAC-Galeria</title>
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Seus estilos personalizados -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slaide2.css">
+
+</head>
+<style>
+    *{
+        box-sizing: content-box;
+        align-items: center;
+    }
+    header{
+
+    top: 43 !important;
+    left: 0;
+
+    
+}
+
+     .container{
+        padding: 8px 20px;
+        box-shadow: 2px 2px 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px;
+
+    }
+
+
+.container .gallery-item {
+    
+    transition: all 3s !important;
+        position: relative;
+        box-sizing: border-box;
+        margin-bottom: 0px;
+        cursor: pointer;
+        
+    
+    
+    
+}
+
+.container .gallery-item img:hover ~ .filtro-foto {
+    visibility: visible !important;
+    
+    
+    
+}
+.gallery-item ~ .filtro-foto {
+    visibility: visible !important;
+}
+
+ .container .gallery-item img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40000px 0px rgba(0,0,0,0.1);
+}
+
+.filtro-foto{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    visibility: hidden !important;
+    
+    transition: transform 1s ease-in-out;
+    
+    }
+
+</style>
+<body>
+    <div class="topoheader">
+        <div class="info_contacto">
+           <img src="phone_24px.png" alt="">
+           <p>(+244) 929 133 300</p>
+           <img src="envelope_24px.png" alt="">   
+           <p>studionac-24@nacstudio.com</p>
+           <img src="clock_24px.png" alt=""> 
+           <p> Seg - Sex: 08:00 - 16:00</p>
+
+        </div>
+
+        <div class="redes_sociais">
+            <a href="https://www.facebook.com/profile.php?id=61557776519899" target="_blank">
+                <img src="facebook_f_24px.png" alt="" class="img">
+            </a>
+            
+            <a href="https://www.instagram.com/nac_studio24/" target="_blank">
+                <img src="instagram_24px.png" alt="">
+            </a>
+            
+            <a href="https://wa.me/244929133300" target="_blank">
+                <img src="whatsapp_24px.png" alt="">
+            </a>
+
+            <a href="mailto:studionac-24@nacstudio.com" studionac-24@nacstudio.com="">
+                <img src="gmail.png" alt="">
+            </a>
+            
+
+        </div>
+
+    </div> 
+    <header id="main-header">
+
+        <div class="logo">
+            <img src="logo0.png" alt="" class="img1">
+            
+
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="#servicos">Serviços</li></a>
+                <li><a href="pacote_fotos.html">Pacotes de fotos</a></li>
+                <li><a href="gallery.html" class="open">Galeria de clientes</a></li>
+                <li><a href="contact.html">Contactos</a></li>
+                <a href="agendar.html"><button>Agendar <img src="schedule_50px.png" alt=""></button></a>
+            </ul>
+        </nav>
+
+    </header>
+    <br><br><br>
+    
+    <div class="banner">
+        <div class="filtro"></div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br<br><br><br>
+   <div class="banner_text">
+        <h1>Nosso Portifólio Recente</h1>
+        <div class="caminho">
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li> / </li>
+                <li><a href="gallery.html"  class="open">Galeria</a></li>
+            </ul>
+        </div>
+   </div>
+   
+  
+        
+   <main>
+    <br><br>
+    <div class="container">
+        <div class="gallery row">
+
+            <div class="gallery-item col-2 p-1">
+                <img src="Nova pasta/aniversario1.jpg" alt="">
+                <div class="filtro-foto">
+                    Cobertura de aniversário
+                    25/05/2024
+                </div>
+            </div>
+
+            <div class="gallery-item col-2 p-1">
+                <img src="Nova pasta/aniversario2.jpg" alt="">
+                <div class="filtro-foto">
+                    Cobertura de aniversário <br>
+                    25/05/2024
+                </div>
+            </div>
+
+            <div class="gallery-item col p-1">
+                <img src="Nova pasta/aniversario3.jpg" alt="">
+                <div class="filtro-foto">
+                    Cobertura de aniversário <br>
+
+                    25/05/2024
+                </div>
+            </div>
+
+            <div class="gallery-item col-3 p-1">
+                <img src="Nova pasta/aniversario4.jpg " alt="">
+                <div class="filtro-foto">
+                    Cobertura de aniversário <br>
+                    25/05/2024
+                </div>
+            </div>
+
+        </div>
+
+        <div class="gallery row">
+
+            <div class="gallery-item col p-1">
+                <img src="Nova pasta/noivado1.jpg" alt="">
+                <div class="filtro-foto">
+                    Cobertura de noivado <br>
+                    18/06/2024
+                </div>
+            </div>
+
+            <div class="gallery-item col p-1">
+                <img src="Nova pasta/noivado2.jpg" alt="">
+                <div class="filtro-foto">
+                    Cobertura de noivado <br>
+                    18/06/2024
+                </div>
+            </div>
+
+            <div class="gallery-item col p-1">
+                <img src="Nova pasta/noivado3.jpg" alt="">
+                <div class="filtro-foto">
+                    Cobertura de noivado  <br>
+                    18/06/2024
+                </div>
+            </div>
+
+            <div class="gallery-item col p-1">
+                <img src="Nova pasta/noivado4.jpg" alt="">
+                <div class="filtro-foto">
+                    Cobertura de noivado <br>
+                    18/06/2024
+                </div>
+            </div>
+
+        </div>
+
+        <div class="gallery row">
+
+            <div class="gallery-item col p-1">
+                <img src="Nova pasta/sessao1.jpg" alt="">
+                <div class="filtro-foto">
+                    Sessão fotográfica no estúdio <br>
+                    14/05/2024
+                </div>
+            </div>
+
+            <div class="gallery-item col p-1">
+                <img src="Nova pasta/sessao2.jpg" alt="">
+                <div class="filtro-foto">
+                    Sessão fotográfica no estúdio <br>
+                    14/05/2024
+                </div>
+            </div>
+
+            <div class="gallery-item col-4 p-1">
+                <img src="Nova pasta/sessao3.jpg" alt="">
+                <div class="filtro-foto">
+                    Sessão fotográfica no estúdio <br>
+                    02/04/2024
+                </div>
+            </div>
+
+            <div class="gallery-item col-3 p-1">
+                <img src="Nova pasta/sessao4.jpg" alt="">
+                <div class="filtro-foto">
+                    Sessão fotográfica no estúdio <br>
+                    02/04/2024
+                </div>
+            </div>
+
+        </div>
+
+        <div class="gallery row">
+
+            <div class="gallery-item col p-1">
+                <img src="Nova pasta/sessao5.jpg" alt="">
+                <div class="filtro-foto">
+                    Sessão fotográfica no estúdio <br>
+                    02/05/2024
+                </div>
+            </div>
+
+            <div class="gallery-item col p-1">
+                <img src="Nova pasta/sessao6.jpg" alt="">
+                <div class="filtro-foto">
+                    Sessão fotográfica no estúdio <br>
+                    02/05/2024
+                </div>
+            </div>
+
+            <div class="gallery-item col-3 p-1">
+                <img src="Nova pasta/sessao7.jpg" alt="">
+                <div class="filtro-foto">
+                    Ensaio fotográfico ao domicílio <br>
+                    01/04/2024
+                </div>
+            </div>
+
+            <div class="gallery-item col-5 p-1">
+                <img src="Nova pasta/sessao8.jpg" alt="">
+                <div class="filtro-foto">
+                    Ensaio fotográfico ao domicílio <br>
+                    01/04/2024
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <br><br><br><br><br>
+    <footer>
+        <div class="links">
+            <div class="privacidade">
+                <ul>
+                    <li>Política de cookes</li>
+                    <li>Política de privacidade</li>
+
+                </ul>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href="pacote_fotos.html">Pacotes de fotos</a></li>
+                    <li><a href="index2.html#servicos">Serviços</a></li>
+                    <li><a href="gallery.html">Galeria de clientes</a></li>
+                    <li><a href="contact.html">Contactos</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="direitos_reservados">
+            <p>
+            Copyrights <img src="direitos_reservados_img.png"  height="14px" class="Autor Durão Gaspar"> 2024 por NacStudio <br><span>Orgulhosamente desenvolvido por-ADDI</span>
+            
+            </p>
+            
+        </div>
+    </footer>
+    
+    </main>
+
+    
+    
+
+
+
+    <script src="javascript/script.js"></script>
+    <script src="javascript/cart.js"></script>
+</body>
+</html>
