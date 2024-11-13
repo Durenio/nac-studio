@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/slaide2.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/agendar.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    
+    
+    <title>NAC-Agendar</title>
+</head>
+<body>
+    
+    <div class="topoheader">
+        <div class="info_contacto">
+           <img src="phone_24px.png" alt="">
+           <p>(+244) 929 133 300</p>
+           <img src="envelope_24px.png" alt="">   
+           <p>studionac-24@nacstudio.com</p>
+           <img src="clock_24px.png" alt=""> 
+           <p> Seg - Sex: 08:00 - 16:00</p>
+
+        </div>
+
+        <div class="redes_sociais">
+            <a href="https://www.facebook.com/profile.php?id=61557776519899" target="_blank">
+                <img src="facebook_f_24px.png" alt="" class="img">
+            </a>
+            
+            <a href="https://www.instagram.com/nac_studio24/" target="_blank">
+                <img src="instagram_24px.png" alt="">
+            </a>
+            
+            <a href="https://wa.me/244929133300" target="_blank">
+                <img src="whatsapp_24px.png" alt="">
+            </a>
+
+            <a href="mailto:studionac-24@nacstudio.com" studionac-24@nacstudio.com="">
+                <img src="gmail.png" alt="">
+            </a>
+            
+
+        </div>
+
+    </div> 
+    <header id="main-header">
+
+        <div class="logo">
+            <img src="logo0.png" alt="" class="img1">
+            
+
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="index.html#servicos">Serviços</li></a>
+                <li><a href="pacote_fotos.html">Pacotes de fotos</a></li>
+                <li><a href="gallery.html">Galeria de clientes</a></li>
+                <li><a href="contact.html">Contactos</a></li>
+                <a href="agendar.html"><button class="open">Agendar <img src="schedule_50px.png" alt=""></button></a>
+            </ul>
+        </nav>
+        <button class="menu-btn" onclick="mostrarmenu()"></button>
+            
+
+    </header>
+    <section id="container-menu-mediaqueries">
+        <div class="menu-transparent">
+            <button class="fecharmenu" onclick="fecharmenu()"><img class="fecharmenu-img" src="delete_50px.png" alt=""></button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href="#servicos">Serviços</li></a>
+                    <li><a href="pacote_fotos.html">Pacotes de fotos</a></li>
+                    <li><a href="gallery.html">Galeria de clientes</a></li>
+                    <li><a href="contact.html">Contactos</a></li>
+                    
+                    
+                </ul>
+                <a href="agendar.html"><button>Agendar <img src="schedule_50px.png" alt=""></button></a>
+            </nav>
+
+            
+        </div>
+    </section>
+
+    <div class="banner">
+        <div class="filtro"></div>
+    </div>
+
+   <div class="banner_text">
+    <h1>Agendamento de Ensaio Fotográfico</h1>
+    <div class="caminho">
+        <ul>
+            <li><a href="index.html">Home</a> </li>
+            <li> / </li>
+            <li><a href="agendar.html"  class="open">Agendar</a></li>
+        </ul>
+    </div>
+   </div>
+   
+   <main>
+
+    <section class="agendar">
+        
+        <div class="formulario">
+            <h2>Bem-vindo à nossa página <br> de agendamento!</h2>
+            <form action="">
+                <div class="box-input">
+                    <input type="text" name="" id="" required class="input">
+                    <label for="" id="label">Seu nome (completo)</label>
+                    
+                </div>
+                <br>
+                <div class="box-input">
+                    <input type="email" name="" id="" required>
+                    <label for="">Seu E-mail</label>
+                </div><br>
+                <div class="box-input">
+                    <input type="tel" name="" id="" required>
+                    <label for="">Seu Contacto</label>
+
+                </div><br>
+                <div class="box-input">
+                    <input type="text" name="" id="" required>
+                    <label for="">Sua Morada</label>
+                </div><br>
+                <div class="box-input">
+                    <select name="" id="" required>
+                        <option selected disabled value=""></option>
+                        <option value="">rhfur</option>
+                        <option value="">hrbhb</option>
+                        <option value="">hrbfh</option>
+                        <option value="">rifueh</option>
+                        
+                    </select>
+                    <label for="">Tipo de ensaio</label>
+                    
+                    
+                    
+                </div><br>
+                <div class="box-input">
+                    <input type="date" name="" id="" required class="input">
+                    <label for="" id="label">Escolha a data</label>
+                    
+                </div>
+                <br>
+                <div class="box-textarea">
+                <textarea name="" id="" required></textarea>
+                <label for="">Observações</label>
+                </div><br><br>
+                <button>Enviar</button>
+            </form>
+
+        </div>
+    </section>
+    
+    <div class="info_agendamento">
+        <button onclick="clickSteps()">Como Funciona <img src="chevron_down_24px.png" alt=""></button> 
+        <div id="steps">
+            <hr class="separador">
+            <ol>
+                <li>Preencha Suas Informações: Insira seus dados de contato para que possamos confirmar sua reserva e discutir detalhes adicionais.</li>
+                <li>Escolha o Tipo de Ensaio: Selecione o tipo de ensaio fotográfico que deseja.</li>
+                <li>Selecione a Data e o Horário: Verifique nossa disponibilidade e escolha uma data e horário que melhor se adequem a você.</li>
+                <li>Personalize Seu Ensaio: Se você tiver algum pedido especial ou ideia em mente, deixe-nos saber para que possamos planejar tudo com antecedência.</li>
+                <li>Confirme o Agendamento: Após revisar todos os detalhes, confirme sua reserva. Você receberá um e-mail ou mensagem de confirmação com todas as informações importantes.</li>
+            </ol>
+        </div>
+
+    </div>
+
+    <br><br><br><br><br>
+    <footer>
+        <div class="links">
+            <div class="privacidade">
+                <ul>
+                    <li>Política de cookes</li>
+                    <li>Política de privacidade</li>
+
+                </ul>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href="pacote_fotos.html">Pacotes de fotos</a></li>
+                    <li><a href="index2.html#servicos">Serviços</a></li>
+                    <li><a href="gallery.html">Galeria de clientes</a></li>
+                    <li><a href="contact.html">Contactos</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="direitos_reservados">
+            <p>
+            Copyrights <img src="direitos_reservados_img.png"  height="14px" class="Autor Durão Gaspar"> 2024 por NacStudio <br><span>Orgulhosamente desenvolvido por-ADDI</span>
+            
+            </p>
+            
+        </div>
+    </footer>
+
+    
+    </main>
+
+
+
+
+    <script src="javascript/script.js"></script>
+    <script src="javascript/cart.js"></script>
+
+
+    
+</body>
+</html>
