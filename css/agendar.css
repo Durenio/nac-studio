@@ -1,0 +1,190 @@
+
+
+.agendar{
+    display: flex;
+    padding: 50px 0;
+    flex-direction: column;
+    align-items: center;   
+}
+.info_agendamento{
+    
+    margin-left: 17%;
+
+}
+ .info_agendamento button{
+    color: #adadad;
+    font-family: "Oswald", Sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.3333em;
+    letter-spacing: 0.5px;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 160px;
+    border: 1px solid rgb(76, 76, 76);
+    padding: 4px;
+    cursor: pointer;
+    
+    
+}
+#steps{
+    display: none;
+
+}
+ .info_agendamento li{
+    color: rgb(61, 61, 61);
+    font-family:  "Poppins", Sans-serif !important;
+    font-size: 12.5px;
+    font-weight: 300;
+    line-height: 2.2em;
+    text-align: justify;
+    width: 60vw;
+}
+
+
+.formulario h2{
+    color: #000000;
+    font-family: "Oswald", Sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.3333em;
+    letter-spacing: 1px;
+    margin:10px 18px;
+}
+
+
+
+.formulario{
+    padding-right: 5px;
+    width: 62%;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+    padding: 7px 30px;
+
+}
+.formulario form{
+    width: auto;
+    background-color: white;
+    
+}
+
+
+.formulario button{
+
+    background-color:  #c0985b;
+    color: white;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+}
+
+
+
+
+ .box-input{
+    position: relative;
+    
+    height: 39px;
+    width: 98%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid rgb(82, 82, 82);
+    
+    
+    
+}
+.box-textarea{
+    position: relative;
+    
+    height: max-content;
+    width: auto;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid rgb(82, 82, 82);
+    display: flex;
+    
+    
+}
+.box-textarea textarea{
+
+    font-family: "Oswald", Sans-serif;
+    background-color: transparent;
+    width: 100%;
+    height: 250px;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 15px;
+    border: none;
+    font-size: 15px;
+
+}
+
+ .box-input input, select{
+    width: 98%;
+    height: 100%;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 5px;
+    border: none;
+    font-size: 15px;
+    font-family: "Oswald", Sans-serif;
+    background-color: transparent;
+ 
+}
+
+ .box-input label{
+    
+    font-family:Arial, Helvetica, sans-serif ;
+    top: 15px;
+    left: 10px;
+    font-size: 14px;
+    position: absolute;
+    transition: 1s all ease;
+    pointer-events: none;
+    display: flex;
+    
+}
+.box-textarea label{
+    
+    font-family:Arial, Helvetica, sans-serif ;
+    top: 15px;
+    left: 10px;
+    font-size: 14px;
+    position: absolute;
+    transition: 1s all ease;
+    pointer-events: none;
+    display: flex;
+    
+}
+
+input:focus + label,
+input:valid + label {
+    top: 2.5px;
+    left: 10px;
+    font-size: 13px;
+    color: #c0985b;
+}
+textarea:focus + label,
+textarea:valid + label {
+    top: 2.5px;
+    left: 10px;
+    font-size: 13px;
+    color: #c0985b;
+}
+select:focus + label, 
+select:valid + label {
+    top: 2.5px;
+    left: 10px;
+    font-size: 13px;
+    color: #c0985b;
+}
+
+
+
+
+

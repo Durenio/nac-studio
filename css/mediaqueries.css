@@ -1,0 +1,224 @@
+@media (max-width:1024px ){
+
+
+    body .topoheader{
+        justify-content: center;
+        align-items: center;
+    }
+    body .topoheader .info_contacto{
+        display: none;
+    }
+    body .topoheader .redes_sociais{
+        margin: 0;
+    }
+    header .menu-btn{
+        display: block;
+    }
+
+    
+
+
+    .contacto{
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+
+    .banner_agendar h2{
+        width: 95%;
+
+    }
+
+
+
+}
+
+@media (max-width: 767px ){
+
+
+
+    header nav{
+        display: none;
+
+    }
+    footer{
+
+        padding-left: 15vw !important;
+
+        
+    }
+
+    footer .nav ul{
+        gap: 10px;
+        margin-top: 30px;
+        flex-direction: column;
+        margin-left: 0px;
+        
+        
+    }
+    .missao, .visao, .valores{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 60px 40px;
+
+    }
+    .missao_img, .visao_img, .valores_img{
+        margin: 0;
+    }
+
+    .sobre_nos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 40px;
+        
+    }
+    .sobre_nos .text{
+        width: 100%;
+
+    }
+    .sobre_nos .text .btn{
+        gap: 10px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .sobre_nos .text p{
+        
+        font-weight: 200;
+    }
+    .missao p, .visao p, .valores p{
+        font-weight: 200;
+    }
+    
+
+    .contacto{
+        padding: 20px 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contacto .info_contactos{
+        width: 300px;
+    }
+
+    .formulario{
+        width: 300px;
+    }
+
+    .slaider .slaide h1{
+
+        top: 200px;
+        z-index: 1;
+        color: white;
+        border: 0;
+        width:100vw ;
+        font-size: 25px;
+
+    }
+
+    .slaider .slaide img{
+
+        height: 400px;
+    }
+
+
+
+
+
+    .depoimento p{
+        
+        font-size: 17px;
+
+       
+    }
+
+    .sobre_nos .img{
+        
+        display: flex;
+        gap: 15px;
+        width: 100%;
+        height: 500px;
+        
+       
+        
+    }
+
+    .sobre_nos .img .coluna1, .coluna2{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        
+    
+    }
+    .sobre_nos .img .coluna1{
+        width: 57%;
+        height: auto;
+    }
+    .sobre_nos .img .coluna2{
+        width: 40%;
+        height: auto;
+    }
+    .sobre_nos .img .img1, .img2, .img3, .img4{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
+    
+        
+    }
+    .sobre_nos .img .img1{
+        margin-top: 60px;
+        margin-left:60px ;
+        background-color: aqua;
+        width: 71.5%;
+        height: 42%;
+        border-top-left-radius: 40px;
+        background-image: url(../imagens/img1.jpg);
+        
+    }
+    .sobre_nos .img .img2{
+    
+        
+        background-color: aqua;
+        width: 98%;
+        height: 45%;
+        border-top-left-radius: 40px;
+        background-image: url(../imagens/img2.jpg);
+        
+    }
+    
+    
+    .sobre_nos .img .img3{
+        border-top-left-radius: 40px;
+        background-color: aqua;
+        width: 100%;
+        height: 40%;
+        background-image: url(../imagens/img3.jpg);
+    
+    }
+    .sobre_nos .img .img4{
+        background-color: aqua;
+        width: 100%;
+        height: 56%;
+        background-image: url(../imagens/img4.jpg);
+    
+    }
+    .agendar{
+        margin: 20px 40px;
+   
+    }
+    #text{
+        margin: 0px 25px;
+    
+        
+    }
+
+
+
+
+    
+
+}
